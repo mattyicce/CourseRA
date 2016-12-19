@@ -1,0 +1,6 @@
+<h1>Hi</h1>
+<h3>{{itemDetail.name}}</h3>
+<h4 ng-if="itemDetail.specialInstructions">{{itemDetail.specialInstructions}}</h4>
+<ul>
+	<li ng-repeat="item in itemDetail.menu_items">{{item.name}}</li>
+</ul>
